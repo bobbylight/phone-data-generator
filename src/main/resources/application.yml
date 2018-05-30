@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL95Dialect
+    hibernate:
+      ddl-auto: none
+  datasource:
+    initialization-mode: always
+    url: jdbc:postgresql://localhost:5432/phonetest
+    driverClassName: org.postgresql.Driver
+    username: postgres
+    password: postgres
